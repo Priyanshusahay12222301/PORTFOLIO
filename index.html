@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Priyanshu Sahay | Full Stack Developer</title>
+  </head>
+  <body>
+    <!-- Cursor follower -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Loading screen -->
+    <div class="loading-screen" id="loading-screen">
+      <div class="loading-content">
+        <div class="loading-logo">PS</div>
+        <div class="loading-text">Loading...</div>
+        <div class="loading-bar">
+          <div class="loading-progress"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav__container">
+        <div class="nav__brand">
+          <span class="logo">PS</span>
+          <span class="brand-text">Priyanshu Sahay</span>
+        </div>
+        
+        <div class="nav__menu__btn" id="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="assets/Priyanshu_sahay GEN.pdf" class="btn btn-download" download>Download CV</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+      <div class="hero__container">
+        <div class="hero__content">
+          <div class="hero__greeting">
+            <span class="greeting-text">Hello, I'm</span>
+          </div>
+          <h1 class="hero__title">
+            <span class="title-line">Priyanshu</span>
+            <span class="title-line">Sahay</span>
+          </h1>
+          <div class="hero__subtitle">
+            <span class="typing-text"></span>
+            <span class="cursor-blink">|</span>
+          </div>
+          <p class="hero__description">
+            Passionate Full Stack Developer crafting innovative web solutions with modern technologies. 
+            Specialized in building scalable applications that solve real-world problems.
+          </p>
+          <div class="hero__buttons">
+            <a href="#contact" class="btn btn-primary">
+              <span>Let's Talk</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+            <a href="#portfolio" class="btn btn-secondary">
+              <span>View Work</span>
+              <i class="ri-eye-line"></i>
+            </a>
+          </div>
+          <div class="hero__stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="15">0</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="2">0</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="5">0</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__image">
+          <div class="image-container">
+            <img src="assets/header1.jpeg" alt="Priyanshu Sahay" />
+            <div class="image-overlay"></div>
+          </div>
+          <div class="floating-elements">
+            <div class="floating-element" data-speed="2">
+              <i class="ri-code-s-slash-line"></i>
+            </div>
+            <div class="floating-element" data-speed="3">
+              <i class="ri-database-2-line"></i>
+            </div>
+            <div class="floating-element" data-speed="1.5">
+              <i class="ri-smartphone-line"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-text">Scroll Down</div>
+        <div class="scroll-arrow"></div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="section__container">
+        <div class="section__header">
+          <span class="section__subtitle">Get to know me</span>
+          <h2 class="section__title">About Me</h2>
+        </div>
+        
+        <div class="about__content">
+          <div class="about__text">
+            <div class="about__intro">
+              <h3>I'm Priyanshu Sahay, a passionate Full Stack Developer</h3>
+              <p>
+                Currently pursuing B.Tech in Computer Science at Lovely Professional University, 
+                I specialize in creating innovative web solutions that bridge the gap between 
+                design and functionality.
+              </p>
+            </div>
+            
+            <div class="about__details">
+              <div class="detail-item">
+                <i class="ri-graduation-cap-line"></i>
+                <div>
+                  <h4>Education</h4>
+                  <p>B.Tech Computer Science, LPU</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="ri-map-pin-line"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Punjab, India</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="ri-trophy-line"></i>
+                <div>
+                  <h4>Achievement</h4>
+                  <p>Codex Fest 2.0 Winner</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="about__buttons">
+              <a href="assets/Priyanshu_sahay GEN.pdf" class="btn btn-primary" download>
+                <i class="ri-download-line"></i>
+                <span>Download CV</span>
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="ri-mail-line"></i>
+                <span>Contact Me</span>
+              </a>
+            </div>
+          </div>
+          
+          <div class="about__image">
+            <div class="image-wrapper">
+              <img src="assets/WhatsApp Image 2025-04-03 at 3.33.46 PM.jpeg" alt="Priyanshu Sahay" />
+              <div class="image-decoration"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="section__container">
+        <div class="section__header">
+          <span class="section__subtitle">What I know</span>
+          <h2 class="section__title">My Skills</h2>
+        </div>
+        
+        <div class="skills__content">
+          <div class="skills__categories">
+            <div class="skill-category active" data-category="frontend">
+              <i class="ri-palette-line"></i>
+              <span>Frontend</span>
+            </div>
+            <div class="skill-category" data-category="backend">
+              <i class="ri-server-line"></i>
+              <span>Backend</span>
+            </div>
+            <div class="skill-category" data-category="database">
+              <i class="ri-database-2-line"></i>
+              <span>Database</span>
+            </div>
+            <div class="skill-category" data-category="tools">
+              <i class="ri-tools-line"></i>
+              <span>Tools</span>
+            </div>
+          </div>
+          
+          <div class="skills__grid">
+            <div class="skill-item frontend active" data-skill="html">
+              <div class="skill-icon">
+                <i class="ri-html5-line"></i>
+              </div>
+              <div class="skill-info">
+                <h4>HTML5</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="95"></div>
+                </div>
+                <span class="skill-percentage">95%</span>
+              </div>
+            </div>
+            
+            <div class="skill-item frontend active" data-skill="css">
+              <div class="skill-icon">
+                <i class="ri-css3-line"></i>
+              </div>
+              <div class="skill-info">
+                <h4>CSS3</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="90"></div>
+                </div>
+                <span class="skill-percentage">90%</span>
+              </div>
+            </div>
+            
+            <div class="skill-item frontend active" data-skill="js">
+              <div class="skill-icon">
+                <i class="ri-javascript-line"></i>
+              </div>
+              <div class="skill-info">
+                <h4>JavaScript</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85"></div>
+                </div>
+                <span class="skill-percentage">85%</span>
+              </div>
+            </div>
+            
+            <div class="skill-item frontend active" data-skill="react">
+              <div class="skill-icon">
+                <i class="ri-reactjs-line"></i>
+              </div>
+              <div class="skill-info">
+                <h4>React</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="80"></div>
+                </div>
+                <span class="skill-percentage">80%</span>
+              </div>
+            </div>
+            
+            <div class="skill-item backend" data-skill="php">
+              <div class="skill-icon">
+                <i class="ri-code-line"></i>
+              </div>
+              <div class="skill-info">
+                <h4>PHP</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85"></div>
+                </div>
+                <span class="skill-percentage">85%</span>
+              </div>
+            </div>
+            
+            <div class="skill-item backend" data-skill="nodejs">
+              <div class="skill-icon">
+                <i class="ri-nodejs-line"></i>
+              </div>
+              <div class="skill-info">
+                <h4>Node.js</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="75"></div>
+                </div>
+                <span class="skill-percentage">75%</span>
+              </div>
+            </div>
+            
+            <div class="skill-item database" data-skill="mysql">
+              <div class="skill-icon">
+                <i class="ri-database-line"></i>
+              </div>
+              <div class="skill-info">
+                <h4>MySQL</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="80"></div>
+                </div>
+                <span class="skill-percentage">80%</span>
+              </div>
+            </div>
+            
+            <div class="skill-item database" data-skill="mongodb">
+              <div class="skill-icon">
+                <i class="ri-database-2-line"></i>
+              </div>
+              <div class="skill-info">
+                <h4>MongoDB</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="70"></div>
+                </div>
+                <span class="skill-percentage">70%</span>
+              </div>
+            </div>
+            
+            <div class="skill-item tools" data-skill="git">
+              <div class="skill-icon">
+                <i class="ri-git-branch-line"></i>
+              </div>
+              <div class="skill-info">
+                <h4>Git</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85"></div>
+                </div>
+                <span class="skill-percentage">85%</span>
+              </div>
+            </div>
+            
+            <div class="skill-item tools" data-skill="figma">
+              <div class="skill-icon">
+                <i class="ri-pencil-ruler-2-line"></i>
+              </div>
+              <div class="skill-info">
+                <h4>Figma</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="75"></div>
+                </div>
+                <span class="skill-percentage">75%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="section__container">
+        <div class="section__header">
+          <span class="section__subtitle">What I offer</span>
+          <h2 class="section__title">My Services</h2>
+        </div>
+        
+        <div class="services__grid">
+          <div class="service__card">
+            <div class="service__icon">
+              <i class="ri-code-box-line"></i>
+            </div>
+            <h3>Full-Stack Development</h3>
+            <p>Complete web application development from frontend to backend, ensuring seamless user experiences and robust functionality.</p>
+            <div class="service__features">
+              <span>Responsive Design</span>
+              <span>API Integration</span>
+              <span>Database Design</span>
+            </div>
+          </div>
+          
+          <div class="service__card featured">
+            <div class="service__badge">Popular</div>
+            <div class="service__icon">
+              <i class="ri-smartphone-line"></i>
+            </div>
+            <h3>Web Application</h3>
+            <p>Modern, responsive web applications built with cutting-edge technologies and best practices for optimal performance.</p>
+            <div class="service__features">
+              <span>React/Vue.js</span>
+              <span>Progressive Web Apps</span>
+              <span>Performance Optimization</span>
+            </div>
+          </div>
+          
+          <div class="service__card">
+            <div class="service__icon">
+              <i class="ri-database-2-line"></i>
+            </div>
+            <h3>Database Solutions</h3>
+            <p>Efficient database design and optimization for scalable applications with proper data modeling and security.</p>
+            <div class="service__features">
+              <span>MySQL</span>
+              <span>MongoDB</span>
+              <span>Data Migration</span>
+            </div>
+          </div>
+          
+          <div class="service__card">
+            <div class="service__icon">
+              <i class="ri-robot-line"></i>
+            </div>
+            <h3>AI Integration</h3>
+            <p>Smart chatbot development and AI integration to enhance user engagement and automate customer support.</p>
+            <div class="service__features">
+              <span>Chatbot Development</span>
+              <span>AI APIs</span>
+              <span>Automation</span>
+            </div>
+          </div>
+          
+          <div class="service__card">
+            <div class="service__icon">
+              <i class="ri-shopping-cart-line"></i>
+            </div>
+            <h3>E-commerce Solutions</h3>
+            <p>Complete e-commerce platforms with secure payment integration and inventory management systems.</p>
+            <div class="service__features">
+              <span>Payment Gateway</span>
+              <span>Inventory System</span>
+              <span>Admin Dashboard</span>
+            </div>
+          </div>
+          
+          <div class="service__card">
+            <div class="service__icon">
+              <i class="ri-line-chart-line"></i>
+            </div>
+            <h3>Performance Optimization</h3>
+            <p>Website speed optimization and performance tuning to ensure fast loading times and better user experience.</p>
+            <div class="service__features">
+              <span>Speed Optimization</span>
+              <span>SEO Friendly</span>
+              <span>Analytics Integration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="section__container">
+        <div class="section__header">
+          <span class="section__subtitle">My work</span>
+          <h2 class="section__title">Featured Projects</h2>
+        </div>
+        
+        <div class="portfolio__filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="web">Web Apps</button>
+          <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+          <button class="filter-btn" data-filter="ai">AI Integration</button>
+        </div>
+        
+        <div class="portfolio__grid">
+          <div class="portfolio__card" data-category="web ai">
+            <div class="portfolio__image">
+              <img src="assets/project-1.jpg" alt="E-Waste Management System" />
+              <div class="portfolio__overlay">
+                <div class="portfolio__links">
+                  <a href="#" class="portfolio__link">
+                    <i class="ri-external-link-line"></i>
+                  </a>
+                  <a href="#" class="portfolio__link">
+                    <i class="ri-github-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__content">
+              <div class="portfolio__category">Web Application</div>
+              <h3>E-Waste Management System</h3>
+              <p>Comprehensive platform for managing electronic waste with real-time analytics and user-friendly interface.</p>
+              <div class="portfolio__tech">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio__card" data-category="ecommerce web">
+            <div class="portfolio__image">
+              <img src="assets/project-2.jpg" alt="Rent Wheels" />
+              <div class="portfolio__overlay">
+                <div class="portfolio__links">
+                  <a href="#" class="portfolio__link">
+                    <i class="ri-external-link-line"></i>
+                  </a>
+                  <a href="#" class="portfolio__link">
+                    <i class="ri-github-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__content">
+              <div class="portfolio__category">E-commerce</div>
+              <h3>Rent Wheels - Car Rental</h3>
+              <p>Full-featured car rental platform with booking system, payment integration, and admin dashboard.</p>
+              <div class="portfolio__tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                <span>Razorpay</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio__card" data-category="web">
+            <div class="portfolio__image">
+              <img src="assets/project-3.jpg" alt="Rock Paper Scissors" />
+              <div class="portfolio__overlay">
+                <div class="portfolio__links">
+                  <a href="#" class="portfolio__link">
+                    <i class="ri-external-link-line"></i>
+                  </a>
+                  <a href="#" class="portfolio__link">
+                    <i class="ri-github-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__content">
+              <div class="portfolio__category">Game</div>
+              <h3>Rock Paper Scissors Game</h3>
+              <p>Interactive game with smooth animations, score tracking, and responsive design.</p>
+              <div class="portfolio__tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio__card" data-category="web">
+            <div class="portfolio__image">
+              <img src="assets/project-4.jpg" alt="Portfolio Website" />
+              <div class="portfolio__overlay">
+                <div class="portfolio__links">
+                  <a href="#" class="portfolio__link">
+                    <i class="ri-external-link-line"></i>
+                  </a>
+                  <a href="#" class="portfolio__link">
+                    <i class="ri-github-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__content">
+              <div class="portfolio__category">Portfolio</div>
+              <h3>Personal Portfolio</h3>
+              <p>Modern, responsive portfolio website showcasing projects and skills with smooth animations.</p>
+              <div class="portfolio__tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio__card" data-category="ai web">
+            <div class="portfolio__image">
+              <img src="assets/project-5.jpg" alt="AI Chatbot" />
+              <div class="portfolio__overlay">
+                <div class="portfolio__links">
+                  <a href="#" class="portfolio__link">
+                    <i class="ri-external-link-line"></i>
+                  </a>
+                  <a href="#" class="portfolio__link">
+                    <i class="ri-github-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__content">
+              <div class="portfolio__category">AI Integration</div>
+              <h3>AI Chatbot System</h3>
+              <p>Intelligent chatbot with natural language processing for automated customer support.</p>
+              <div class="portfolio__tech">
+                <span>Python</span>
+                <span>NLP</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio__card" data-category="web">
+            <div class="portfolio__image">
+              <img src="assets/project-6.jpg" alt="Blog Template" />
+              <div class="portfolio__overlay">
+                <div class="portfolio__links">
+                  <a href="#" class="portfolio__link">
+                    <i class="ri-external-link-line"></i>
+                  </a>
+                  <a href="#" class="portfolio__link">
+                    <i class="ri-github-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__content">
+              <div class="portfolio__category">Template</div>
+              <h3>Responsive Blog Template</h3>
+              <p>Clean and modern blog template with CMS integration and SEO optimization.</p>
+              <div class="portfolio__tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>PHP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="section__container">
+        <div class="section__header">
+          <span class="section__subtitle">Get in touch</span>
+          <h2 class="section__title">Let's Work Together</h2>
+        </div>
+        
+        <div class="contact__content">
+          <div class="contact__info">
+            <div class="contact__item">
+              <div class="contact__icon">
+                <i class="ri-mail-line"></i>
+              </div>
+              <div class="contact__details">
+                <h4>Email</h4>
+                <p>priyanshusahay@example.com</p>
+              </div>
+            </div>
+            
+            <div class="contact__item">
+              <div class="contact__icon">
+                <i class="ri-phone-line"></i>
+              </div>
+              <div class="contact__details">
+                <h4>Phone</h4>
+                <p>+91 12345 67890</p>
+              </div>
+            </div>
+            
+            <div class="contact__item">
+              <div class="contact__icon">
+                <i class="ri-map-pin-line"></i>
+              </div>
+              <div class="contact__details">
+                <h4>Location</h4>
+                <p>Punjab, India</p>
+              </div>
+            </div>
+            
+            <div class="contact__socials">
+              <h4>Follow Me</h4>
+              <div class="social__links">
+                <a href="https://www.linkedin.com/in/priyanshu-sahay" target="_blank" class="social__link">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://github.com/Priyanshusahay12222301" target="_blank" class="social__link">
+                  <i class="ri-github-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/yourusername" target="_blank" class="social__link">
+                  <i class="ri-instagram-fill"></i>
+                </a>
+                <a href="mailto:priyanshusahay@example.com" class="social__link">
+                  <i class="ri-mail-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact__form">
+            <form action="https://formspree.io/f/mgvzjwbk" method="POST" id="contact-form">
+              <div class="form__group">
+                <input type="text" name="name" id="name" required>
+                <label for="name">Your Name</label>
+              </div>
+              
+              <div class="form__group">
+                <input type="email" name="email" id="email" required>
+                <label for="email">Your Email</label>
+              </div>
+              
+              <div class="form__group">
+                <input type="text" name="subject" id="subject" required>
+                <label for="subject">Subject</label>
+              </div>
+              
+              <div class="form__group">
+                <textarea name="message" id="message" rows="5" required></textarea>
+                <label for="message">Your Message</label>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-full">
+                <span>Send Message</span>
+                <i class="ri-send-plane-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__brand">
+            <div class="logo">PS</div>
+            <p>Crafting digital experiences with passion and precision.</p>
+          </div>
+          
+          <div class="footer__links">
+            <div class="footer__section">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer__section">
+              <h4>Services</h4>
+              <ul>
+                <li><a href="#services">Web Development</a></li>
+                <li><a href="#services">UI/UX Design</a></li>
+                <li><a href="#services">E-commerce</a></li>
+                <li><a href="#services">AI Integration</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer__section">
+              <h4>Connect</h4>
+              <div class="footer__socials">
+                <a href="https://www.linkedin.com/in/priyanshu-sahay" target="_blank">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://github.com/Priyanshusahay12222301" target="_blank">
+                  <i class="ri-github-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/yourusername" target="_blank">
+                  <i class="ri-instagram-fill"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer__bottom">
+          <p>&copy; 2024 Priyanshu Sahay. All rights reserved.</p>
+          <p>Made with <i class="ri-heart-fill"></i> by Priyanshu</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="back-to-top">
+      <i class="ri-arrow-up-line"></i>
+    </button>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
